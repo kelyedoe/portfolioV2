@@ -1,0 +1,62 @@
+.introduction{
+    margin: 7rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    &__line{
+        text-align: center;
+        color: $color-tertiary;
+        border: 0;
+        background-color: $color-primary;
+        height: 2px;
+        width: 60%;
+        opacity: 0.9;
+    }
+    &__text{
+        text-align: justify;
+        padding-left:4rem ;
+
+        &--un{
+            font-size: 3rem;
+            color: $color-secondary;
+            font-weight: 700;
+        }
+
+        &--deux{
+            font-size: 3rem;
+            color: $color-secondary;
+        }
+
+        &--trois{
+            font-size: 3rem;
+            color: $color-primary;
+            font-weight: 600;
+        }
+
+        &--description{
+            font-size: 1.3rem;
+            color: $color-secondary;
+        }
+
+        
+    }
+
+    &__image{
+        
+       // background-color: $color-secondary;
+        bottom: 0;
+        float: left;
+        
+    }
+
+}
+
+.clip-polygon {
+    float: right;
+    //border-top-right-radius: 10px;
+    height: 15rem;
+    width: 15rem;
+    border-radius: 5rem;
+    clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);/* Note that percentages work as well as px */
+    
+  }

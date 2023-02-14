@@ -1,0 +1,17 @@
+{
+  "name": "portfoliov2",
+  "version": "1.0.0",
+  "description": "portfolio v2.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "watch:sass": "node-sass sass/main.scss css/style.css -w",
+    "compile:sass": "node-sass sass/main.scss css/style.css"
+  },
+  "author": "kelykart",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}

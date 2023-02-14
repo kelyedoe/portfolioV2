@@ -1,0 +1,59 @@
+.header{
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+   
+    justify-content: space-between;
+    margin: 1.2rem;
+
+    &__logo{
+        
+    }
+
+    &__line{
+        text-align: center;
+        color: $color-tertiary;
+        border: 0;
+        background-color: $color-tertiary;
+        height: 1px;
+        opacity: 0.3;
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
+    
+}
+
+.navigation{
+    &__nav{
+
+    }
+
+    &__link{
+        text-decoration: none;
+    }
+
+    &__list{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 5rem;
+        list-style: none;
+        font-size: 2rem;
+    }
+
+    &__item:link,
+        &__item:visited{
+            font-weight: 400;
+            text-decoration: none;
+            list-style: none;
+            color: $color-secondary ;
+            transition: all 1.8s;
+        }
+
+    &__item:hover,
+    &__item:active
+        {
+            transform: scale(1.2);
+            color: $color-tertiary;
+        }
+}

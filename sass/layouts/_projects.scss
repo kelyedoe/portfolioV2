@@ -1,0 +1,44 @@
+.projects{
+    margin: 5rem;
+
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 4rem;
+
+    &__title{
+        margin: 5rem;
+        font-size: 3rem;
+        color: $color-primary;
+        text-align: center;
+    }
+
+    &__card{
+        background-color: #F0EEEE;
+        border: 4px solid #9f9d9d;
+        padding: 2rem;
+        border-radius: 3px;
+        display: flex;
+        align-content: space-between;
+        flex-direction: column;
+        gap: 3rem;
+        &--title{
+            font-size: 2rem;
+            color: $color-secondary;
+            font-weight: 600;
+        }
+
+        &--description{
+            font-size: 1.1rem;
+            color: $color-secondary;
+        }
+
+        &--btn{
+            color: $color-secondary;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            font-size: 1.2rem;
+            font-weight: 500;
+        }
+    }
+}
+
